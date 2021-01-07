@@ -1,0 +1,440 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+#container {
+    /* width: 88%;     */
+    /* margin: auto;   */
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+
+    /*header  */
+
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 13px;
+    /* min-height: 70px;  */
+    border-bottom: #e8491d 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+
+}
+
+/* header ul{
+    margin: 0;
+    padding: 0;
+} */
+
+header li {
+
+    display: inline;
+    padding: 0 20px 0 20px;
+
+
+
+
+}
+
+header nav {
+    /* float: right; */
+    margin-top: 15px;
+
+}
+
+header h1 .span,
+header .home a,
+.about a,
+.service a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+
+}
+
+/* section-present */
+#section-present {
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    background: url("presentation.jpg")no-repeat 0;
+    background-size: cover;
+
+    text-align: center;
+    color: white;
+
+
+}
+
+#section-present h1 {
+
+    margin: 0%;
+    padding-top: 90px;
+    font-size: 55px;
+
+
+}
+
+
+
+
+
+
+.section-present-container p {
+    font-size: 20px;
+
+}
+
+/* section-newsletter */
+
+#section-newsletter {
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+
+}
+
+.section-newsletter-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.section-newsletter-container form {
+    margin-top: 20px;
+}
+
+.section-newsletter-container input {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+.section-newsletter-container .button_1 {
+    height: 36px;
+    background: #e8491d;
+    border: none;
+    width: 92px;
+    color: white
+}
+
+/* images */
+.images-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.images {
+    margin-top: 25px;
+
+
+}
+
+.images .images-container .image img {
+    width: 80px;
+}
+
+
+/* About */
+/* aboutUs */
+
+
+
+#aboutUs .aboutUs-textes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-height: 70%;
+
+
+
+}
+
+.texte2 p {
+
+    margin-top: 30px;
+    padding: 15px;
+    background: #35424a;
+    color: white;
+    margin-bottom: 80px;
+
+}
+
+.texte3 {
+    margin-top: 30px;
+    padding: 15px;
+    background: #35424a;
+    color: white;
+    margin-bottom: 176px;
+
+}
+
+/* Services */
+.Services-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+
+}
+
+.Service1 {
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+    width: 113%;
+}
+
+.form {
+    padding: 30px 57px 20px 51px;
+    background: #35424a;
+    margin-bottom: 370px;
+    margin-top: 20px;
+    color: white;
+    /* width: 30%; */
+}
+
+.form-quote input {
+    width: 100%;
+    padding: 5px;
+
+}
+
+.form-quote textarea {
+    width: 105%;
+}
+
+.button_1 {
+    height: 36px;
+    background: #e8491d;
+    border: none;
+    width: 70px;
+    color: white
+}
+
+/* * footer */
+* footer {
+    padding: 20px;
+    /* margin-top: 20px; */
+    background-color: #e8491d;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    color: white;
+}
+
+
+@media (max-width:1072px) {
+    #Services .Services-container {
+
+        display: block;
+        /* width: 750px; */
+    }
+    #Services h1{
+        text-align: center;
+    }
+
+    #Services .Service1 {
+
+        width: 85%;
+        margin: auto;
+
+        text-align: center;
+        /* margin: 19px -163px;
+        padding: 0px 130px; */
+
+    }
+
+    #Services   .form {
+       
+     
+       margin: 5%;
+      
+        
+    }
+    #Services .form h2{
+        text-align: center;
+    }
+   
+
+    #Services .button_1{
+    width: 102%;
+    height: 33px;
+   
+       
+    }
+#Services textarea{
+width: 101%;
+    }    
+
+   
+
+    #aboutUs .texte1 h1 {
+        
+        color: #e8491d;
+    }
+
+    #aboutUs .texte1 p {
+        padding: 20px;
+        background: #35424a;
+        color: white;
+
+
+
+    }
+
+
+    #aboutUs .texte3 {
+        width: 678px;
+        text-align: center;
+        margin: 30px 0px 30px 0px;
+
+
+
+    }
+
+    #aboutUs .texte2 p {
+        margin-bottom: 0px;
+    }
+
+}
+
+/* @media (max-width:895px) { */
+
+/* #Services .Services-container { */
+/* margin: auto;
+     
+             width: 50%; */
+/* } */
+/* #Services  .Services-container .Service1 {
+
+        width: 160%;
+
+    } */
+/* } */
+/* @media (max-width:887px){
+
+    #Services .Services-container {
+       
+       
+        width: 50%;
+      
+          }
+      
+} */
+/* @media (max-width:834px){
+    #Services textarea{
+        width: 150px;
+            } 
+} */
+
+
+@media (max-width:768px) {
+
+
+    #section-present h1 {
+        font-size: 35px;
+
+    }
+
+    #section-present p {
+        font-size: 15px;
+    }
+    /* #Services textarea{
+        width: 300px;
+            }  */
+
+
+}
+
+@media (max-width:600px) {
+    header #container nav ul li {
+        margin: 0 30px 0 0px;
+
+    }
+    /* #Services textarea{
+        width: 200px;
+            }  */
+
+
+}
+
+@media (max-width:457px) {
+
+    header #container nav ul li {
+        display: block;
+        text-align: center;
+        padding-bottom: 20px;
+
+    }
+
+
+}
+
+
+
+@media (max-width:394px) {
+    #section-newsletter .button_1 {
+        width: 262px;
+        flex-wrap: wrap;
+
+    }
+
+    #section-newsletter form {
+        text-align: center;
+        margin-bottom: 30px;
+
+
+    }
+
+    #section-newsletter form input {
+        margin: 20px;
+    }
+
+
+}
+
+@media (max-width:374px) {
+    header #container .log h1 {
+        text-align: center;
+    }
+
+    #section-present h1 {
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width:337px) {
+    #section-newsletter h1 {
+        text-align: center;
+    }
+
+    #section-present p {
+        font-size: 14px;
+    }
+
+}
